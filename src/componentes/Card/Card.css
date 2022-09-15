@@ -3,8 +3,8 @@
     width: 280px;
     padding: 40px;
     box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-rows: 10% 20% 60% 10%;
 }
 
 .card img{
@@ -31,5 +31,8 @@
     border-radius: 20px;
     font-weight: bold;
     cursor: pointer;
-    justify-self: baseline;
+}
+
+button:hover{
+    opacity: 0.8;
 }
