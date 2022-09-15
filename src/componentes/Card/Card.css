@@ -1,0 +1,35 @@
+.card{
+    height: 430px;
+    width: 280px;
+    padding: 40px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.card img{
+    width: 50px;
+}
+
+.card h1{
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsl(0, 0%, 95%);
+}
+
+.card p{
+    font-family: 'Big Shoulders Display', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    line-height: 1.5em;
+}
+
+.card button{
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    justify-self: baseline;
+}
